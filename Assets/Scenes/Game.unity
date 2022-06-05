@@ -851,6 +851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: {fileID: 1287535238}
   score: {fileID: 900531199}
+  gameOver: {fileID: 2019371345}
 --- !u!114 &1252819219
 MonoBehaviour:
   m_ObjectHideFlags: 0

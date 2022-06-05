@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlaneObserver : MonoBehaviour
 {
@@ -10,11 +11,12 @@ public class PlaneObserver : MonoBehaviour
     public static int lives = 3;
     public TMP_Text life;
     public TMP_Text score;
-    
+    public Image gameOver;
 
     private void Start()
     {
         e.OnGroundHit += OnCollisionEnter;
+        gameOver.enabled = false;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -38,5 +40,9 @@ public class PlaneObserver : MonoBehaviour
     {
         life.SetText(lives.ToString());
         score.SetText(Score.ToString());
+        if(lives <= 0)
+        {
+            gameOver.enabled = true;
+        }
     }
 }
