@@ -14,3 +14,5 @@ Also you can earn some cool coins which you can use to purchase;
 New weapons ( guns, slingshot, bows )
 New Stages
 New Death effects ( when apples die ofc )
+
+![YayGif](https://user-images.githubusercontent.com/12250862/172067204-c058f845-d691-4647-8fa9-8db158213a04.gif)
