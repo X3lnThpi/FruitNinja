@@ -1,8 +1,5 @@
 # FruitNinja
-UNITY Assignment - BANZAN STUDIOS
 
-Question 2:
-Target: Apple
 Reference game : Fruit Ninja
 3D game
 Landscape
